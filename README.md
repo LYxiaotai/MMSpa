@@ -40,10 +40,10 @@ R==4.2.2
 
 (1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/M2GATE/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/M2GATE/blob/main)
 
-(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main)
+(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb)
 
-* The datasets for [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domian_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674)
-* All the results of [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domian_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674/results)
+* The datasets for [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domian_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/151674)
+* All the results of [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domian_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/results)
 
 
 
