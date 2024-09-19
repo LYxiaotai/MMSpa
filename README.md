@@ -15,4 +15,35 @@ M2GATE, a Graph ATtention auto-Encoder framework featuring two Masking strategie
 
 ## How to use M2GATE?
 
+### 1. Requirements
 
+M2GATE is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run M2GATE on CUDA. The following packages are required to be able to run everything in this repository (included are the versions we used):
+
+numpy==1.26.4
+
+pandas==2.2.2
+
+sklearn==1.5.0
+
+scipy==1.13.1
+
+tqdm==4.66.4
+
+scanpy==1.10.1
+
+anndata==0.10.7
+
+torch==2.3.1+cu121
+
+palettable==3.3.3
+
+ryp2==3.5.16
+
+R==4.2.2
+
+
+### 2. Tutorial
+
+(1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/M2GATE/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/M2GATE/blob/main)
+
+(2) Tutorial for analyzing 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [M2GATE_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main)
