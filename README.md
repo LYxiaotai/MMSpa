@@ -42,8 +42,8 @@ R==4.2.2
 
 (2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main)
 
-* The datasets for Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674)
-* All the results of the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674/results)
+* The datasets for [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domian_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674)
+* All the results of [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domian_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674/results)
 
 
 
