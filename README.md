@@ -22,25 +22,15 @@ M2GATE is implemented in the pytorch framework (tested on Python 3.9.19). We rec
 ``` python
 
 numpy==1.26.4
-
 pandas==2.2.2
-
 sklearn==1.5.0
-
 scipy==1.13.1
-
 tqdm==4.66.4
-
 scanpy==1.10.1
-
 anndata==0.10.7
-
 torch==2.3.1+cu121
-
 palettable==3.3.3
-
 ryp2==3.5.16
-
 R==4.2.2
 
 ```
