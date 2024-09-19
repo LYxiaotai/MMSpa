@@ -10,7 +10,7 @@ M2GATE, a Graph ATtention auto-Encoder framework featuring two Masking strategie
 
 2. M2GATE adopts an edge removal strategy to construct an enhanced spatial graph, which is more specific for the domain identification task, facilitating clearer delineation of domain boundaries. 
 
-3. By employing mask strategies and integrating gene expression data with the enhanced spatial graph, M2GATE learns stable latent representations that improve spatial domain identification and downstream analyses, such as tissue structure visualization, spatial trajectory inference, pseudo-spatiotemporal map (pSM) analysis.
+3. By employing mask strategies and integrating gene expression data with the enhanced spatial graph, M2GATE learns stable latent representations that improve spatial domain identification and downstream analyses, such as tissue structure visualization, Uniform Manifold Approximation and Projection (UMAP) visualization, spatial trajectory inference, pseudo-spatiotemporal map (pSM) analysis and discovery of domain-specific marker genes.
 
 
 ## How to use M2GATE?
@@ -40,4 +40,10 @@ R==4.2.2
 
 (1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/M2GATE/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/M2GATE/blob/main)
 
-(2) Tutorial for analyzing 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [M2GATE_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main)
+(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main)
+
+* The datasets for Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674)
+* All the results of the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main) can be found [here](https://github.com/LYxiaotai/M2GATE/blob/main/151674/results)
+
+
+
