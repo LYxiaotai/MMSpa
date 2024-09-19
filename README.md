@@ -21,6 +21,7 @@ M2GATE is implemented in the pytorch framework (tested on Python 3.9.19). We rec
 
 ``` python
 
+# Python
 numpy==1.26.4
 pandas==2.2.2
 sklearn==1.5.0
@@ -31,19 +32,22 @@ anndata==0.10.7
 torch==2.3.1+cu121
 palettable==3.3.3
 ryp2==3.5.16
+
+# R
 R==4.2.2
+mclust==6.0.1
 
 ```
 
 
 ### 2. Tutorial
 
-(1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/M2GATE/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/M2GATE/blob/main)
+(1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/M2GATE/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/M2GATE/blob/main).
 
-(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb)
+(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb).
 
-* The datasets for [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/151674).
-* All the results of [Tutorial](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/results).
+* The datasets for the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/151674).
+* All the results of the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/results).
 
 
 
