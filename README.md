@@ -19,6 +19,8 @@ M2GATE, a Graph ATtention auto-Encoder framework featuring two Masking strategie
 
 M2GATE is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run M2GATE on CUDA. The following packages are required to be able to run everything in this repository (included are the versions we used):
 
+``` python
+
 numpy==1.26.4
 
 pandas==2.2.2
@@ -40,6 +42,8 @@ palettable==3.3.3
 ryp2==3.5.16
 
 R==4.2.2
+
+```
 
 
 ### 2. Tutorial
