@@ -44,10 +44,10 @@ mclust==6.0.1
 
 (1) Download the [SpaMask_F.py](https://github.com/LYxiaotai/SpaMask/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/SpaMask/blob/main).
 
-(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/SpaMask/blob/main/Domain_151674.ipynb).
+(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Train_151674.ipynb](https://github.com/LYxiaotai/SpaMask/blob/main/Train_151674.ipynb).
 
-* The datasets for the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/SpaMask_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/151674).
-* The domain identification results of the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/results).
+* The datasets for the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/151674).
+* The domain identification results of the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/results).
 
 
 
