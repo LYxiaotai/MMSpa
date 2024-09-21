@@ -2,7 +2,7 @@
 
 ## What is SpaMask?
 
-![Figure1_overview](https://github.com/LYxiaotai/M2GATE/blob/main/Figure1_overview.jpg)
+![Figure1_overview](https://github.com/LYxiaotai/M2GATE/blob/main/Overview.jpg)
 
 SpaMask, a Graph ATtention auto-Encoder framework featuring two Masking strategies: masked feature reconstruction and re-mask decoding. 
 
