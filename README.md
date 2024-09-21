@@ -1,23 +1,23 @@
-# M2GATE
+# SpaMask
 
-## What is M2GATE?
+## What is SpaMask?
 
 ![Figure1_overview](https://github.com/LYxiaotai/M2GATE/blob/main/Figure1_overview.jpg)
 
-M2GATE, a Graph ATtention auto-Encoder framework featuring two Masking strategies: masked feature reconstruction and re-mask decoding. 
+SpaMask, a Graph ATtention auto-Encoder framework featuring two Masking strategies: masked feature reconstruction and re-mask decoding. 
 
-* The graph attention module in M2GATE enables adaptive learning of local spatial neighbors, while the masking strategies enhance model robustness, resulting in stable latent representations with more core biological information. 
+* The graph attention module in SpaMask enables adaptive learning of local spatial neighbors, while the masking strategies enhance model robustness, resulting in stable latent representations with more core biological information. 
 
-* M2GATE adopts an edge removal strategy to construct an enhanced spatial graph, which is more specific for the domain identification task, facilitating clearer delineation of domain boundaries. 
+* SpaMask adopts an edge removal strategy to construct an enhanced spatial graph, which is more specific for the domain identification task, facilitating clearer delineation of domain boundaries. 
 
 * By employing mask strategies and integrating gene expression data with the enhanced spatial graph, M2GATE learns stable latent representations that improve spatial domain identification and downstream analyses, such as tissue structure visualization, Uniform Manifold Approximation and Projection (UMAP) visualization, spatial trajectory inference, pseudo-spatiotemporal map (pSM) analysis and discovery of domain-specific marker genes.
 
 
-## How to use M2GATE?
+## How to use SpaMask?
 
 ### 1. Requirements
 
-M2GATE is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run M2GATE on CUDA. The following packages are required to be able to run everything in this repository (included are the versions we used):
+SpaMask is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run SpaMask on CUDA. The following packages are required to be able to run everything in this repository (included are the versions we used):
 
 ``` python
 
@@ -42,12 +42,12 @@ mclust==6.0.1
 
 ### 2. Tutorial
 
-(1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/M2GATE/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/M2GATE/blob/main).
+(1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/SpaMask/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/SpaMask/blob/main).
 
-(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb).
+(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/SpaMask/blob/main/Domain_151674.ipynb).
 
-* The datasets for the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/151674).
-* The domain identification results of the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2GATE/tree/main/data/results).
+* The datasets for the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/151674).
+* The domain identification results of the Tutorial [Domian_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Domain_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/results).
 
 
 
