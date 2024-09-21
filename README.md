@@ -42,7 +42,7 @@ mclust==6.0.1
 
 ### 2. Tutorial
 
-(1) Download the [M2GATE_F.py](https://github.com/LYxiaotai/SpaMask/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/SpaMask/blob/main).
+(1) Download the [SpaMask_F.py](https://github.com/LYxiaotai/SpaMask/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/SpaMask/blob/main).
 
 (2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Domian_151674.ipynb](https://github.com/LYxiaotai/SpaMask/blob/main/Domain_151674.ipynb).
 
