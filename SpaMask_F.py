@@ -175,7 +175,7 @@ class PreModel1(nn.Module):
 
 
 
-def Train_M2GATE(model, edge, dataX, adata):
+def Train_SpaMask(model, edge, dataX, adata):
     
     set_seed(11)
 
