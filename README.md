@@ -2,7 +2,7 @@
 
 ## What is SpaMask?
 
-![Figure1_overview.png](https://github.com/LYxiaotai/M2GATE/blob/main/Figure1_overview.png)
+![Figure1_overview.png](https://github.com/LYxiaotai/SpaMask/blob/main/Figure1_overview.png)
 
 SpaMask, a Graph ATtention auto-Encoder framework featuring two Masking strategies: masked feature reconstruction and re-mask decoding. 
 
@@ -46,8 +46,8 @@ mclust==6.0.1
 
 (2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Train_151674.ipynb](https://github.com/LYxiaotai/SpaMask/blob/main/Train_151674.ipynb).
 
-* The datasets for the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/151674).
-* The domain identification results of the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2GATE/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/results).
+* The datasets for the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/SpaMask/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/151674).
+* The domain identification results of the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/SpaMask/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/SpaMask/tree/main/data/results).
 
 
 
