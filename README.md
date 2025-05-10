@@ -37,7 +37,7 @@ mclust==6.0.1
 
 * The datasets for the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2ST/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2ST/tree/main/data/151674).
 * The domain identification results of the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2ST/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2ST/tree/main/data/results).
-* When facing to determining the number of clusters without prior knowledge, we recommend selecting the number of clusters by identifying the maximum score within a range of potential values, using metrics such as the Silhouette score. We have provided the function cluster_select() to hlep to select the highest Silhouette score in [M2ST_F.ipynb](https://github.com/LYxiaotai/M2ST/blob/main/M2ST_F.py).
+* When facing to determining the number of clusters without prior knowledge, we recommend selecting the number of clusters by identifying the maximum score within a range of potential values, using metrics such as the Silhouette score. We have provided the function cluster_select() to help select the highest Silhouette score in [M2ST_F.py](https://github.com/LYxiaotai/M2ST/blob/main/M2ST_F.py).
 
 
 
