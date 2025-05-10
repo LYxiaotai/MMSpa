@@ -20,6 +20,9 @@ M2ST, a Graph ATtention auto-Encoder framework featuring two Masking strategies:
 M2ST is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run M2ST on CUDA. 
 -   `pip install -r requirement.txt`
 
+M2ST also calls the "mclust" package (recommend mclust version 6.0.1) in the R language. We recommend use the R Version 4.2.2.
+
+
 ```
 
 # R
