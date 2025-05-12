@@ -19,9 +19,8 @@ M2ST, a Graph ATtention auto-Encoder framework featuring two Masking strategies:
 
 - Python 3.9
 - R 4.2.2
-- 
-Quick Installation： M2ST is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run M2ST on CUDA.
-#### Before install the Python dependencies, we recommend that users create a new conda enviroment.
+- Quick Installation： M2ST is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run M2ST on CUDA.
+#### Before install the Python dependencies, we recommend that users create a new conda enviroment and R environment.
 -   `Conda create -n env python=3.9`
 -   `conda install r-base`
 #### Install Python dependencies
