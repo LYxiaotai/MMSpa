@@ -17,21 +17,23 @@ M2ST, a Graph ATtention auto-Encoder framework featuring two Masking strategies:
 
 ### 1. Requirements
 
-M2ST is implemented in the pytorch framework (tested on Python 3.9.19). We recommend that users run M2ST on CUDA.
+M2ST is implemented in the PyTorch framework (tested on Python 3.9.19). We recommend that users run M2ST on CUDA.
 
 - Python 3.9
-- R (We recommend use the R Version 4.2.2.)
+- R (We recommend using the R Version 4.2.2.)
 #### Quick Installation：
-#### Step1: Before install the Python dependencies, we recommend that users create a new conda enviroment and R environment.
+#### Step 1: Before installing the Python dependencies, we recommend that users create a new conda environment and R environment.
 -   `Conda create -n env python=3.9`
 -   `conda install r-base`
-#### Step2: Install Python dependencies
+#### Step 2: Install Python dependencies
+The use of the mclust algorithm requires the rpy2 package and the mclust package. See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for details.
+
+The rpy2 package is included in requirement.txt:
+
 -   `pip install -r requirement.txt`
 
-The use of the mclust algorithm requires the rpy2 package and the mclust package. See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for detail.
-
-The rpy2 package has included in requirement.txt, and the mclust package can be installed as follows.
-#### Step3: Install R dependencies (requires R environment)
+The mclust package can be installed as follows.
+#### Step 3: Install R dependencies (requires R environment, see Step 1)
 M2ST also calls the "mclust" package in the R language. 
 -   `conda install r-mclust`
 
@@ -47,15 +49,15 @@ M2ST also calls the "mclust" package in the R language.
 * When facing to determining the number of clusters without prior knowledge, we recommend selecting the number of clusters by identifying the maximum score within a range of potential values, using metrics such as the Silhouette score. We have provided the function cluster_select() to help select the highest Silhouette score in [M2ST_F.py](https://github.com/LYxiaotai/M2ST/blob/main/M2ST_F.py).
  ```
  # A simple example:
+
   min_clust = 20
   max_clust = 25
   figsave = './M2ST/'
-  cluster_sil = M2ST_F.cluster_select(adata, min_clust, max_clust, figsave)
+  cluster_sil = M2ST_F.cluster_select(adata, min_clust, max_clust, figsave) 
+  optimal_clusters = max(cluster_sil, key=cluster_sil.get)    # find optimal cluster number
 
 # cluster_sil：A dictionary containing silhouette scores for each tested cluster number. Example: {3: 0.723, 4: 0.815, 5: 0.782}
-# To find optimal cluster number:
-  optimal_clusters = max(cluster_sil, key=cluster_sil.get)
-
+ 
 ```
 * Additionally, recent advances in the field of statistics, nonparametric Bayesian, such as the nonparametric Potts prior, offer inferring spatial domains in a fully data-driven manner. A related reference is Yan and Luo (2024, Bayesian integrative region segmentation in spatially resolved transcriptomic studies, JASA) (https://doi.org/10.1080/01621459.2024.2308323).
 
