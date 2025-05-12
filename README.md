@@ -27,7 +27,7 @@ M2ST also calls the "mclust" package in the R language.
 
 The use of the mclust algorithm requires the rpy2 package and the mclust package. See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for details.
 
-The rpy2 package is included in requirement.txt. See Step 2.
+The rpy2 package is included in requirement.txt. Installation: see Step 2.
 
 The installation of the mclust package can be found in Step 3.
 
