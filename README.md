@@ -60,7 +60,6 @@ The installation of the mclust package can be found in Step 3.
   optimal_clusters = max(cluster_sil, key=cluster_sil.get)    # find optimal cluster number
 
 # cluster_sil：A dictionary containing silhouette scores for each tested cluster number. Example: {3: 0.723, 4: 0.815, 5: 0.782}
- 
 ```
 * Additionally, recent advances in the field of statistics, nonparametric Bayesian, such as the nonparametric Potts prior, offer inferring spatial domains in a fully data-driven manner. A related reference is Yan and Luo (2024, Bayesian integrative region segmentation in spatially resolved transcriptomic studies, JASA) (https://doi.org/10.1080/01621459.2024.2308323).
 
