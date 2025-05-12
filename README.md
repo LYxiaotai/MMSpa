@@ -16,25 +16,28 @@ M2ST, a Graph ATtention auto-Encoder framework featuring two Masking strategies:
 ## How to use M2ST?
 
 ### 1. Requirements
-
+  
 M2ST is implemented in the PyTorch framework (tested on Python 3.9.19). We recommend that users run M2ST on CUDA.
 
 - Python 3.9
+
+M2ST also calls the "mclust" package in the R language.
+
 - R (We recommend using the R Version 4.2.2.)
+
+The use of the mclust algorithm requires the rpy2 package and the mclust package. See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for details.
+
+The rpy2 package is included in requirement.txt. See Step 2.
+
+The installation of the mclust package can be found in Step 3.
+
 #### Quick Installation：
 #### Step 1: Before installing the Python dependencies, we recommend that users create a new conda environment and R environment.
 -   `Conda create -n env python=3.9`
 -   `conda install r-base`
 #### Step 2: Install Python dependencies
-The use of the mclust algorithm requires the rpy2 package and the mclust package. See https://pypi.org/project/rpy2/ and https://cran.r-project.org/web/packages/mclust/index.html for details.
-
-The rpy2 package is included in requirement.txt:
-
 -   `pip install -r requirement.txt`
-
-The mclust package can be installed as follows.
 #### Step 3: Install R dependencies (requires R environment, see Step 1)
-M2ST also calls the "mclust" package in the R language. 
 -   `conda install r-mclust`
 
 
