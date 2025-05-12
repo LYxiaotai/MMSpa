@@ -21,7 +21,7 @@ M2ST is implemented in the PyTorch framework (tested on Python 3.9.19). We recom
 
 - Python 3.9
 
-M2ST also calls the "mclust" package in the R language.
+M2ST also calls the "mclust" package (tested on mclust==6.0.1) in the R language.
 
 - R (We recommend using the R Version 4.2.2.)
 
