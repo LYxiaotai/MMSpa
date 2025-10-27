@@ -1,27 +1,27 @@
-# M2ST
+# MMSpa
 
-## What is M2ST?
+## What is MMSpa?
 
-![Figure1_overview.png](https://github.com/LYxiaotai/M2ST/blob/main/Figure1_overview.png)
+![Figure1_overview.png](https://github.com/LYxiaotai/MMSpa/blob/main/Figure1_overview.png)
 
-M2ST, a Graph ATtention auto-Encoder framework featuring two Masking strategies: masked feature reconstruction and re-mask decoding. 
+MMSpa, a Graph ATtention auto-Encoder framework featuring two Masking strategies: masked feature reconstruction and re-mask decoding. 
 
-* The graph attention module in M2ST enables adaptive learning of local spatial neighbors, while the masking strategies enhance model robustness, resulting in stable latent representations with more core biological information. 
+* The graph attention module in MMSpa enables adaptive learning of local spatial neighbors, while the masking strategies enhance model robustness, resulting in stable latent representations with more core biological information. 
 
-* M2ST adopts an edge removal strategy to construct an enhanced spatial graph, which is more specific for the domain identification task, facilitating clearer delineation of domain boundaries. 
+* MMSpa adopts an edge removal strategy to construct an enhanced spatial graph, which is more specific for the domain identification task, facilitating clearer delineation of domain boundaries. 
 
 * By employing mask strategies and integrating gene expression data with the enhanced spatial graph, M2GATE learns stable latent representations that improve spatial domain identification and downstream analyses, such as tissue structure visualization, Uniform Manifold Approximation and Projection (UMAP) visualization, spatial trajectory inference, pseudo-spatiotemporal map (pSM) analysis and discovery of domain-specific marker genes.
 
 
-## How to use M2ST?
+## How to use MMSpa?
 
 ### 1. Requirements
   
-M2ST is implemented in the PyTorch framework (tested on Python 3.9.19). We recommend that users run M2ST on CUDA.
+MMSpa is implemented in the PyTorch framework (tested on Python 3.9.19). We recommend that users run MMSpa on CUDA.
 
 - `Python 3.9`
 
-M2ST also calls the "mclust" package (tested on mclust==6.0.1) in the R language.
+MMSpa also calls the "mclust" package (tested on mclust==6.0.1) in the R language.
 
 - `R (We recommend using the R Version 4.2.2.)`
 
@@ -43,20 +43,20 @@ The installation of the mclust package can be found in Step 3.
 
 ### 2. Tutorial
 
-(1) Download the [M2ST_F.py](https://github.com/LYxiaotai/M2ST/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/M2ST/blob/main).
+(1) Download the [MMSpa_F.py](https://github.com/LYxiaotai/MMSpa/blob/main) and [gat_conv2.py](https://github.com/LYxiaotai/MMSpa/blob/main).
 
-(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Train_151674.ipynb](https://github.com/LYxiaotai/M2ST/blob/main/Train_151674.ipynb).
+(2) Tutorial for domain identification on 10x Visium human dorsolateral prefrontal cortex (DLPFC) dataset can be found here: [Train_151674.ipynb](https://github.com/LYxiaotai/MMSpa/blob/main/Train_151674.ipynb).
 
-* The datasets for the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2ST/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2ST/tree/main/data/151674).
-* The domain identification results of the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/M2ST/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/M2ST/tree/main/data/results).
-* When facing to determining the number of clusters without prior knowledge, we recommend selecting the number of clusters by identifying the maximum score within a range of potential values, using metrics such as the Silhouette score. We have provided the function `cluster_select()` to help select the highest Silhouette score in [M2ST_F.py](https://github.com/LYxiaotai/M2ST/blob/main/M2ST_F.py).
+* The datasets for the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/MMSpa/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/MMSpa/tree/main/data/151674).
+* The domain identification results of the Tutorial [Train_151674.ipynb](https://github.com/LYxiaotai/MMSpa/blob/main/Train_151674.ipynb) can be found [here](https://github.com/LYxiaotai/MMSpa/tree/main/data/results).
+* When facing to determining the number of clusters without prior knowledge, we recommend selecting the number of clusters by identifying the maximum score within a range of potential values, using metrics such as the Silhouette score. We have provided the function `cluster_select()` to help select the highest Silhouette score in [MMSpa_F.py](https://github.com/LYxiaotai/MMSpa/blob/main/MMSpa_F.py).
  ```
  # A simple example:
 
   min_clust = 20
   max_clust = 25
-  figsave = './M2ST/'
-  cluster_sil = M2ST_F.cluster_select(adata, min_clust, max_clust, figsave) 
+  figsave = './MMSpa/'
+  cluster_sil = MMSpa_F.cluster_select(adata, min_clust, max_clust, figsave) 
   optimal_clusters = max(cluster_sil, key=cluster_sil.get)    # find optimal cluster number
 
 # cluster_sil：A dictionary containing silhouette scores for each tested cluster number. Example: {3: 0.723, 4: 0.815, 5: 0.782}
